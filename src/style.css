@@ -7,32 +7,29 @@
 
 a {
   text-decoration: none;
-  color: #2C2D35;
+  color: #2c2d35;
 }
 
-header {
+#header {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 1440px;
   height: 100px;
-  background-color: #E1EDE6;
+  background-color: #D4E8D9;
 }
-
-.logo {
+#header .logo {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 143px;
 }
-
-.company_name {
-  color: #598D66;
+#header .company_name {
+  color: #376B44;
   font-weight: 700;
   font-size: 20px;
 }
-
-.navigation {
+#header .navigation {
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -42,4 +39,17 @@ header {
   font-size: 20px;
   font-weight: 500;
   line-height: 23px;
+}
+
+#main {
+  background-color: gray;
+  width: 1440px;
+  height: 620px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#main .main_title {
+  width: 540px;
+  height: 331px;
 }

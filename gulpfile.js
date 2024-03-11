@@ -11,7 +11,7 @@ var sass = require("gulp-sass")(require("sass"));
 gulp.task("sass", function (cb) {
   gulp
     .src("src/*.scss")
-    .pipe(sass())
+    .pipe(sass().on('error', sass.logError))
     .pipe(
       gulp.dest(function (f) {
         return f.base;
